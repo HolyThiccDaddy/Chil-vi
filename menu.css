@@ -1,0 +1,217 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('leaguespartan-bold.eot');
+    src: url('leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('leaguespartan-bold.woff2') format('woff2'),
+         url('leaguespartan-bold.woff') format('woff'),
+         url('leaguespartan-bold.ttf') format('truetype'),
+         url('leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20201012/pngtree-abstract-particle-equalizer-visualization-music-background-image_410675.jpg');
+    font-family: 'League Spartan',sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 1%;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: -4%;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.list-container{
+    height: 805px;
+    max-width: 1750px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.table{
+    border: 1px solid black;
+    align-items: center;
+    width: 100%;
+}
+
+th{
+    padding: 25px;
+    font-size: 35px;
+    font-weight: lighter;
+    border: 1px solid red;
+    justify-content: center;
+    width: 1250px;
+    border-radius: 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+button{
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Volume-Setting{
+    text-align: center;
+    margin-top: -1%;
+    font-size: 40px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+#volume-control {
+    width: 200px;
+    height: 30px;
+    background: blue;
+}
+
+.credit{
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.rainbg{
+    transition: 0.7s;
+    background-position: 15%;
+    background-image: url('https://media.licdn.com/dms/image/D4D12AQGl35v4UXX41A/article-cover_image-shrink_720_1280/0/1657704878779?e=2147483647&v=beta&t=7g_tTfbz6kzzhTMZLIySDiL69vGtL8l4sOe9lSj7LEY');
+}
+
+.rainbg:hover{
+    opacity: 0.8;
+}
+
+.thunderbg{
+    transition: 0.7s;
+    background-position: 40%;
+    background-image: url('https://www.thoughtco.com/thmb/DQWHbIr1LjByQ8ZJlzg2nQO5Pdc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/556442987-58b7417e5f9b5880804fc0a1.jpg');
+}
+
+.thunderbg:hover{
+    opacity: 0.8;
+}
+
+.fireplacebg{
+    transition: 0.7s;
+    background-position: 10%;
+    background-image: url('https://i.insider.com/61dca0774ede320018b6e40c?width=700');
+}
+
+.fireplacebg:hover{
+    opacity: 0.8;
+}
+
+.wavebg{
+    transition: 0.7s;
+    background-position: 50%;
+    background-image: url('https://cityfurnish.com/blog/wp-content/uploads/2023/08/beach-near-hotel-min.jpg');
+}
+
+.wavebg:hover{
+    opacity: 0.8;
+}
+
+.trafficbg{
+    transition: 0.7s;
+    background-position: 100%;
+    background-image: url('https://smartgrowthamerica.org/wp-content/uploads/2022/03/complete-streets-feature-erwin-tennessee-main-street.jpg');
+}
+
+.trafficbg:hover{
+    opacity: 0.8;
+}
+
+.librarybg{
+    transition: 0.7s;
+    background-position: 10%;
+    background-image: url('https://www.booktrust.org.uk/globalassets/images/news-and-features/blogs-2021/09.-september/promote-your-school/promote-your-school-16x9-4.jpg?w=1200&h=675&quality=70&anchor=middlecenter');
+}
+
+.librarybg:hover{
+    opacity: 0.8;
+}
+
+.forestbg{
+    transition: 0.7s;
+    background-position: 70%;
+    background-image: url('https://cdn.firstcry.com/education/2022/05/10114506/695934271.jpg');
+}
+
+.forestbg:hover{
+    opacity: 0.8;
+}
+
+.windchimesbg{
+    transition: 0.7s;
+    background-image: url('https://media.istockphoto.com/id/187614339/photo/wind-chimes.jpg?s=612x612&w=0&k=20&c=rUJJe9J-QYQMZqy9K9R-RWciQ4KsZkcDD197qJnGElY=');
+}
+
+.windchimesbg:hover{
+    opacity: 0.8;
+}
+
+.birdsbg{
+    transition: 0.7s;
+    background-position: 10%;
+    background-image: url('https://mdc.mo.gov/sites/default/files/styles/carousel/public/mdcd7/media/images/2014/03/pa2-04-2014.jpg?h=ed80be45&itok=ROS0jacl');
+}
+
+.birdsbg:hover{
+    opacity: 0.8;
+}
+
+.coffeebg{
+    transition: 0.7s;
+    background-image: url('https://coffeebusiness.com/wp-content/uploads/2019/08/14tenents-pt2.jpg');
+    background-position: 20%;
+}
+
+.coffeebg:hover{
+    opacity: 0.8;
+}
+
+.barbg{
+    transition: 0.7s;
+    background-position: 10%;
+    background-image: url('https://www.worlds50bestbars.com/northamerica/filestore/jpg/double-chicken-please-profile%20(2).jpg');
+}
+
+.barbg:hover{
+    opacity: 0.8;
+}
+
+.restaurantbg{
+    transition: 0.7s;
+    background-position: 10%;
+    background-image: url('https://thethaiger.com/th/wp-content/uploads/2023/07/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%A1%E0%B8%94%E0%B8%B4%E0%B9%80%E0%B8%95%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%A3%E0%B9%80%E0%B8%99%E0%B8%B5%E0%B8%A2%E0%B8%99-%E0%B8%81%E0%B8%A3%E0%B8%B8%E0%B8%87%E0%B9%80%E0%B8%97%E0%B8%9E-Pastel-%E0%B8%A3%E0%B8%B9%E0%B8%9F%E0%B8%97%E0%B9%87%E0%B8%AD%E0%B8%9B-%E0%B8%9A%E0%B8%B2%E0%B8%A3%E0%B9%8C-e1690777828199.png');
+}
+
+.restaurantbg:hover{
+    opacity: 0.8;
+}

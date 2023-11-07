@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <title>ChillEnvi</title>
+</head>
+<body>
+    <h1>ChillEnvi</h1>
+    <h2><u>Design your own Environment</u></h2>
+    <div class="Volume-Setting"><u>VOLUME</u> <input type="range" id="volume-control" min="0" max="1" step="0.01" value="1"></div>
+
+    <div class="list-container">
+        <div class="menu-containers">
+            <table>
+                <tr>
+                    <th class="rainbg">Rainy 🌧️<br>play/pause<br><button class="Rainy" id="rainy-button">PLAY</button><br></th>
+                    <th class="thunderbg">Thunder ⚡<br>play/pause<br><button class="Thunder" id="thunder-button">PLAY</button></th>
+                    <th class="fireplacebg">Fireplace 🔥<br>play/pause<br><button class="Fireplace" id="fireplace-button">PLAY</button></th>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th class="wavebg">Wave 🌊<br>play/pause<br><button class="Wave" id="wave-button">PLAY</button></th>
+                    <th class="trafficbg">Traffic 🛣️<br>play/pause<br><button class="Highway" id="highway-button">PLAY</button></th>
+                    <th class="librarybg">Library 📚<br>play/pause<br><button class="Library" id="library-button">PLAY</button></th>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th class="forestbg">Forest 🌲<br>play/pause<br><button class="Nature" id="Nature-button">PLAY</button></th>
+                    <th class="windchimesbg">Wind Chimes 🔔<br>play/pause<br><button class="WindChimes" id="WindChimes-button">PLAY</button></th>
+                    <th class="birdsbg">Birds 🕊️<br>play/pause<br><button class="Birds" id="Birds-button">PLAY</button></th>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <th class="coffeebg">Coffee Shop ☕<br>play/pause<br><button class="Coffee" id="Coffee-button">PLAY</button></th>
+                    <th class="barbg">Bar 🍷<br>play/pause<br><button class="Bar" id="Bar-button">PLAY</button></th>
+                    <th class="restaurantbg">Restaurant 🍝<br>play/pause<br><button class="Restaurant" id="Restaurant-button">PLAY</button></th>
+                </tr>
+            </table>
+            <br>
+            <div class="credit">created by Thira Rungruangkaset</div>
+        </div>
+    </div>
+    
+    <!--AUDIO FILE-->
+    <audio id="rain-audio" src="sfx\y2mate.com - Minecraft Just Rain 1 HOUR SLEEP RAIN.mp3" type="rainy-sfx" loop></audio>
+    <audio id="thunder-audio" src="sfx\y2mate.com - All Thunder Sounds Minecraft  Sound Effects for editing.mp3" type="thunder-sfx" loop></audio>
+    <audio id="fireplace-audio" src="sfx\y2mate.com -  Minecraft Fire Sound Effect HD  Editing Sounds .mp3" type="fireplace-sfx" loop></audio>
+    <audio id="wave-audio" src="sfx\y2mate.com - 1 Hour Relaxing Ocean Waves.mp3" type="wave-sfx" loop></audio>
+    <audio id="highway-audio" src="sfx\y2mate.com - Highway Sounds 1 Hour of Relaxing White Noise to DeStress and Wellbeing.mp3" type="highway-sfx" loop></audio>
+    <audio id="library-audio" src="sfx\y2mate.com - Back to School Study Ambience  Typing  Handwriting Sounds  No Music  Deep Focus  Productivity.mp3" type="library-sfx" loop></audio>
+    <audio id="nature-audio" src="sfx\y2mate.com - Natural Forest Sounds  ASMR  Our Green Planet  BBC Earth.mp3" type="nature-sfx" loop></audio>
+    <audio id="Wind Chimes-audio" src="sfx\y2mate.com - 1 Hour of Koshi Chimes  Gentle Meditation Music  Fire Earth Wind Water Chimes to Calm Anxiety.mp3" type="Wind Chimes-sfx" loop></audio>
+    <audio id="birds-audio" src="sfx\y2mate.com - Relaxing Nature Ambience MeditationGOOD MORNING SPRING NATURE THERAPYFlowery MEADOW Healing Sounds.mp3" type="bird-sfx" loop></audio>
+    <audio id="coffee-audio" src="sfx\y2mate.com - One Hour of  HQ Coffee Shop Background Noise.mp3" type="coffee-sfx" loop></audio>
+    <audio id="bar-audio" src="sfx\y2mate.com - Bar Ambience  Sound Effects  Talking Music Glasses Door Creaking.mp3" type="bar-sfx" loop></audio>
+    <audio id="restaurant-audio" src="sfx\y2mate.com - 1 Hour of Restaurant Ambience  with English speaking voices.mp3" type="restaurant-sfx" loop></audio>
+    
+    <script src="menu.js"></script>
+</body>
+</html>
